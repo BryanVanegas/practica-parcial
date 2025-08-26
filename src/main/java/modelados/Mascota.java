@@ -8,16 +8,12 @@ package modelados;
  *
  * @author BryanVanegas
  */
-public class Persona {
+public class Mascota {
     
-    private int id;
-    private String nombre;
-    private int edad;
+    private String raza;
 
-    public Persona(int id, String nombre, int edad) {
-        this.id = id;
-        this.nombre = nombre;
-        this.edad = edad;
+    public Mascota(String raza) {
+        this.raza = raza;
     }
     
     
