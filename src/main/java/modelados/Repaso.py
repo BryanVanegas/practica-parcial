@@ -1,0 +1,7 @@
+print(f"Hola Mundo")
+input("Ingresa tu nombre: ")
+nombre = input()
+print(f"Hola {nombre}")
+input("Ingrese su apellido:")
+apellido = input()
+print(f"hola, {nombre}+" "+{apellido}")
